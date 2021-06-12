@@ -1,0 +1,115 @@
+
+
+
+/* For rolling and unrolling animation */
+
+.rolling1{
+	display: initial;
+	animation: roll1 0.6s ease;
+	transform: translate(1vw, -47.5vh);
+}
+@keyframes roll1{
+	from{
+		transform: translate(-100vw, 0vh) rotate(90deg);
+	}
+	to{
+		transform: translate(1vw, -47.5vh) rotate(0deg);
+	}
+}
+.rolling2{
+	display: initial;
+	animation: roll2 0.6s ease;
+	transform: translate(-49vw, -47.5vh);
+
+}
+@keyframes roll2{
+	from{
+		transform: translate(100vw, 0vh) rotate(-90deg);
+	}
+	to{
+		transform: translate(-49vw, -47.5vh) rotate(0deg);
+	}
+}
+.rolling3{
+	display: initial;
+	animation: roll3 0.6s ease;
+	transform: translate(1vw, -97.5vh);
+}
+@keyframes roll3{
+	from{
+		transform: translate(-100vw, -49vh) rotate(-90deg);
+	}
+	to{
+		transform: translate(1vw, -97.5vh) rotate(0deg);
+	}
+}
+.rolling4{
+	display: initial;
+	animation: roll4 0.6s ease;
+	transform: translate(-49vw, -97.5vh);
+}
+@keyframes roll4{
+	from{
+		transform: translate(100vw, 0vh) rotate(90deg);
+	}
+	to{
+		transform: translate(-49vw, -97.5vh) rotate(0deg);
+	}
+}
+
+
+.unrolling1{
+	display: initial;
+	animation: unroll1 0.6s ease;
+	transform: translate(-100vw, 0vh);
+}
+@keyframes unroll1{
+	from{
+		transform: translate(1vw, -47.5vh) rotate(0deg);
+	}
+	to{
+		transform: translate(-100vw, 0vh) rotate(90deg);
+	}
+}
+.unrolling2{
+	display: initial;
+	animation: unroll2 0.6s ease;
+	transform: translate(100vw, 0vh);
+}
+@keyframes unroll2{
+	from{
+		transform: translate(-49vw, -47.5vh) rotate(0deg);
+	}
+	to{
+		transform: translate(100vw, 0vh) rotate(-90deg);
+	}
+}
+.unrolling3{
+	display: initial;
+	animation: unroll3 0.6s ease;
+	transform: translate(-100vw, -49vh);
+}
+@keyframes unroll3{
+	from{
+		transform: translate(1vw, -97.5vh) rotate(0deg);
+	}
+	to{
+		transform: translate(-100vw, -49vh) rotate(-90deg);
+	}
+}
+.unrolling4{
+	display: initial;
+	animation: unroll4 0.6s ease;
+	transform: translate(100vw, 0vh);
+}
+@keyframes unroll4{
+	from{
+		transform: translate(-49vw, -97.5vh) rotate(0deg);
+	}
+	to{
+		transform: translate(100vw, 0vh) rotate(90deg);
+	}
+}
+
+/* For rolling and unrolling animation */
+

@@ -1,0 +1,55 @@
+.ball{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: #4e4369;
+	border-radius: 15px;
+}
+
+.ball1{
+	top: 58vh;
+	left: 47.4vw;
+	animation: back-and-forth-1 2s ease-in-out infinite alternate;
+}
+
+@keyframes back-and-forth-1{
+	0%{
+		top: 58vh;
+	}
+
+	100%{
+		top: 84vh;
+	}
+}
+
+.ball2{
+	top: 119vh;
+	left: 47.4vw;
+	animation: back-and-forth-2 2s ease-in-out infinite alternate;
+}
+
+@keyframes back-and-forth-2{
+	0%{
+		top: 119vh;
+	}
+
+	100%{
+		top: 145vh;
+	}
+}
+
+.ball3{
+	top: 276vh;
+	left: 47.4vw;
+	animation: back-and-forth-3 2s ease-in-out infinite alternate;
+}
+
+@keyframes back-and-forth-3{
+	0%{
+		top: 276vh;
+	}
+
+	100%{
+		top: 301vh;
+	}
+}

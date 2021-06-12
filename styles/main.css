@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Exo, Helvetica;
+}
+
+body{
+	overflow: hidden;
+}
+
+.cont{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cont div .title{
+	width: 50vw;
+	height: 50vh;
+	font-size: 2rem;
+	font-weight: 650;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.about-us .title1{
+	background-color: rgb(255, 100, 100);
+}
+.our-work .title2{
+	background-color: rgb(100, 100, 255);
+}
+.get-in-touch .title3{
+	background-color: rgb(0, 200, 200);
+}
+.our-services .title4{
+	background-color: rgb(100, 255, 100);
+}
+
+.title{
+	opacity: 0.8;
+	transition: 0.4s;
+}
+
+.title:hover{
+	opacity: 1;
+}
+
+.content{
+	z-index: 100;
+	width: 98vw;
+	height: 95vh;
+	display: none;
+	background-color: white;
+	position: absolute;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+
+/*central logo*/
+#name{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/*central logo image*/
+#name img{
+	width: 174px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+}

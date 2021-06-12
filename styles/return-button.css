@@ -1,0 +1,37 @@
+/* return button*/
+
+.return-button{
+	border: 5px solid #555;
+	color: #555;
+	font-size: 1.5rem;
+	width: 300px;
+	padding: 8px 10px;
+	font-weight: 500;
+	margin: 80px auto 0 auto;
+	display: block;
+	background-color: white;
+	outline: none;
+	transition: 0.4s;
+}
+
+.return-button:hover{
+	background-color: #555;
+	color: white;
+}
+
+.return-button-img{
+	position: sticky;
+	bottom: 20px;
+	left: calc(95vw - 20px);
+	width: 32px;
+	height: 32px;
+	transition: 0.4s;
+}
+
+.return-button-img:hover{
+	transform: translate(-4px, -4px);
+	filter: drop-shadow(5px 5px 3px #555);
+}
+
+/* return button*/
+

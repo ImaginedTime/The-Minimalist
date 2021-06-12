@@ -1,0 +1,152 @@
+.about-us .content .text{
+	margin: auto;
+	width: 80vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-top: 70px;
+	opacity: 0.85;
+	font-weight: 100;
+}
+
+.about-us .content .text div{
+	width: 31%;
+	display: inline-block;
+}
+
+
+.about-us .content .text h1{
+	font-size: 32px;
+	font-weight: 900;
+	padding: 10px;
+}
+
+.about-us .content .text p{
+	padding-bottom: 10px;
+	font-size: 20px;
+	color: rgba(0, 0, 0, 1);
+	text-align: left;
+}
+
+
+
+
+
+/*people's section for about us*/
+
+.about-us .content .people{
+	margin: auto;
+	width: 80vw;
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.about-us .content .people > h1{
+	margin-bottom: 70px;
+}
+
+.about-us .content .people > div{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+	width: 90vw;
+
+}
+
+.about-us .content .people div .Mark{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.about-us .content .people div .Mark > img{
+	width: 200px;
+	border: 5px solid #333;
+}
+
+.about-us .content .people div .Jenny{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.about-us .content .people div .Jenny > img{
+	width: 200px;
+	border: 5px solid #333;
+}
+
+.about-us .content .people div .Samson{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.about-us .content .people div .Samson > img{
+	width: 200px;
+	border: 5px solid #333;
+}
+
+.details{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.details div{
+	margin: 5px;
+}
+
+.details span{
+	font-size: 20px;
+	margin-left: 15px;
+	font-weight: 300;
+}
+
+/* People's section for about us */
+
+
+
+
+/* Client's section for about us */
+
+.about-us .content .clients{
+	margin: auto;
+	width: 80vw;
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+
+.about-us .content .clients > h1{
+	margin-bottom: 80px;
+}
+
+.about-us .content .clients > span{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.about-us .content .clients div{
+	width: 80vw	;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+
+.about-us .content .clients div img{
+	width: 190px;
+}
+
+/* Client's section for about us */
+

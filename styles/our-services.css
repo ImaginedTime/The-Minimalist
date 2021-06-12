@@ -1,0 +1,58 @@
+.our-services .content > h1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10vh;
+	color: #333;
+}
+
+.our-services-main > div:not(.ball):not(.why-us){
+	width: 40vw;
+	height: 30vh;
+}
+
+.our-services-main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.our-services-main div h2{
+	padding: 30px 40px;
+	color: #333;
+}
+
+.our-services-main div p{
+	padding: 0 40px;
+	font-size: 20px;
+	color: #555;
+	font-weight: 300;
+}
+
+.strategy h2, .strategy p, .development h2, .development p, 
+.small-and-friendly h2, .small-and-friendly p, .no-surprises h2, .no-surprises p{
+	text-align: right;
+}
+
+.strategy, .development, .no-surprises, .small-and-friendly{
+	border-right: 1px solid #333;
+}
+
+.small-and-friendly{
+	padding-top: 50px;
+}
+
+.why-us{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: #4e4369;
+	color: white;
+	top: 194vh;
+	left: 43.5vw;
+}

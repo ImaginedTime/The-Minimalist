@@ -1,0 +1,15 @@
+.logo{
+	margin-top: 10vh;
+	width: 98vw;
+	height: 25vh;
+}
+
+.logo img{
+	display: block;
+	width: 147px;
+	height: 147px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+/* logo for the content pages - black */
